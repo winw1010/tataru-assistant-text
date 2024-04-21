@@ -20,13 +20,13 @@ img {
   margin-bottom: 0.7rem;
   /*border: 0.1rem solid #808080;*/
 }
+
 .img-ui {
   width: 2rem;
   height: 2rem;
 }
 
-p,
-#span-warning {
+p {
   font-weight: bolder;
 }
 
