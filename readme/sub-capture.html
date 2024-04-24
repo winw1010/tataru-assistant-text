@@ -43,7 +43,7 @@
         <h3>功能說明</h3>
         <img class="img-fluid" src="./img/capture/cpature-method.png" alt="picture" style="margin: 0" />
         <ol>
-          <li>最左邊可選擇擷取方式，有Google Vision和Tesseract OCR兩種，推薦使用最為準確的Google Vision</li>
+          <li>最左邊可選擇擷取方式，有Tesseract OCR和Google Vision兩種</li>
           <li>
             換行切割：勾選後會以行為單位逐行翻譯(用來翻譯過場的選擇項目)，不勾選的話會將所有文字合併成一行再翻譯(翻譯文章時使用)
           </li>
@@ -57,17 +57,17 @@
         <h3>擷取方式</h3>
         <ul>
           <li>
-            <h4>Google Vision(推薦)</h4>
-            <span>
-              文字辨識能力非常精準，不論英文或日文都幾乎不會有錯字(
-              <a href="./sub-google-vision-api.html" target="_blank">查看設定教學</a>
-              )
-            </span>
+            <h4>Tesseract OCR</h4>
+            <span> 大致上沒有問題，但偶爾會有錯字，需手動編輯修正 </span>
           </li>
 
           <li>
-            <h4>Tesseract OCR</h4>
-            <span> 英文基本上沒問題，但日文容易誤判和錯字，需手動編輯修正 </span>
+            <h4>Google Vision</h4>
+            <span>
+              文字辨識能力較為精準，幾乎不會有錯字，需在GCP建立API憑證才能使用(
+              <a href="./sub-google-vision-api.html" target="_blank">查看設定教學</a>
+              )
+            </span>
           </li>
         </ul>
       </li>
