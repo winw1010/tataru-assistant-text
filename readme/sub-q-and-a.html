@@ -90,17 +90,9 @@
       <li>
         <h5>程式無法自動翻譯</h5>
         <ul>
+          <li>至【設定】>【系統設定】，點選【修復字幕讀取器】，修復後重新開機即可</li>
           <li>
-            <span>
-              至
-              <a href="https://drive.google.com/drive/folders/14zjoUNzZTKgn2mCiAx6YJ14-fsd8M_I_?usp=drive_link">
-                我的雲端
-              </a>
-              下載「fix.bat」，對其右鍵使用管理員身分執行，執行後按下任意鍵開始修復，修復完畢重新開機
-            </span>
-          </li>
-          <li>
-            若無法下載fix.bat請在左下搜尋輸入「cmd」，找到「命令提示字元」對其滑鼠右鍵，點選「以系統管理員身分執行」，然後複製以下指令按下Enter執行
+            若無法修復請在左下搜尋輸入「cmd」，找到「命令提示字元」對其滑鼠右鍵，點選「以系統管理員身分執行」，然後執行以下指令
             <br />
             <span class="text-warning">
               secedit /configure /cfg %windir%\inf\defltbase.inf /db defltbase.sdb /verbose
