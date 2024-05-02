@@ -46,6 +46,14 @@
 
 Tataru Assistant 使用說明文件
 
+### signatures.json
+
+FF14 字幕的指標路徑
+
+### version.json
+
+Tataru Assistant 的版本資料
+
 ## 翻譯錯誤回報方式
 
 於 Tataru Assistant 點選欲回報的字幕，然後點選【回報翻譯錯誤】按鈕
