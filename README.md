@@ -1,7 +1,7 @@
 # tataru-assistant-text
 
-此為 Tataru Assistant 的翻譯對照表
-繁體中文翻譯: 巴哈姆特電玩資訊站 夜雪(winw1010)
+此為 Tataru Assistant 的翻譯對照表  
+繁體中文翻譯: 巴哈姆特電玩資訊站 夜雪(winw1010)  
 簡體中文翻譯: 夜北 yakita
 
 ## 文件格式
