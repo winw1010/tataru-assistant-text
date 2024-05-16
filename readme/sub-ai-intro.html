@@ -29,35 +29,39 @@
         <p>目前本程式可用的AI模型和收費方式如下</p>
         <table class="table table-bordered">
           <thead>
+            <!-- header -->
             <tr>
               <th>#</th>
               <td>Gemini</td>
-              <td colspan="2">ChatGPT</td>
+              <td colspan="3">ChatGPT</td>
               <td>Cohere</td>
             </tr>
           </thead>
           <tbody>
+            <!-- version -->
             <tr>
               <th>版本</th>
               <td>1.0 Pro</td>
               <td>GPT-3.5 Turbo</td>
+              <td>GPT-4o</td>
               <td>GPT-4 Turbo</td>
               <td>Command R</td>
             </tr>
 
+            <!-- payment binding -->
             <tr>
               <th>需綁定付款資訊</th>
               <td>有 (免費方案不收費)</td>
-              <td>有</td>
-              <td>有</td>
+              <td colspan="3">有</td>
               <td>無</td>
             </tr>
 
+            <!-- payment -->
             <tr>
               <th>收費方式</th>
               <!--可免費使用，需要更大的流量時需改用流量計費-->
               <td>免費</td>
-              <td><span class="text-warning">無月費</span>，僅流量計費</td>
+              <td colspan="2"><span class="text-warning">無月費</span>，僅流量計費</td>
               <td>月費 + 流量計費</td>
               <td>
                 Trial key：免費
@@ -66,35 +70,56 @@
               </td>
             </tr>
 
+            <!-- pricing -->
             <tr>
               <th>價格</th>
+              <!-- Gemini -->
               <td>無</td>
+
+              <!-- GPT-3.5 Turbo -->
               <td>
                 流量計費：
                 <br />
-                Input: $0.0005 / 1K Tokens
+                Input: $0.50 / 1M tokens
                 <br />
-                Output: $0.0015 / 1K Tokens
+                Output: $1.50 / 1M tokens
               </td>
+
+              <!-- GPT-4o -->
+              <td>
+                流量計費：
+                <br />
+                Input: $5.00 / 1M tokens
+                <br />
+                Output: $5.00 / 1M tokens
+              </td>
+
+              <!-- GPT-4 Turbo -->
               <td>
                 月費： 每月$20或以上
                 <br />
                 <br />
                 流量計費：
                 <br />
-                Input: $0.01 / 1K Tokens
+                Input: $10.00 / 1M tokens
                 <br />
-                Output: $0.03 / 1K Tokens
+                Output: $10.00 / 1M tokens
               </td>
+
+              <!-- Cohere -->
               <td>
+                免費：$0
+                <br />
+                <br />
                 流量計費：
                 <br />
-                Input: $0.0005 / 1K Tokens
+                Input: $0.50 / 1M TOKENS
                 <br />
-                Output: $0.0015 / 1K Tokens
+                Output: $1.50 / 1M TOKENS
               </td>
             </tr>
 
+            <!-- rate limit -->
             <tr>
               <th>使用上限</th>
               <td>
@@ -119,7 +144,14 @@
                 <br />
                 每分鐘 500次 請求
                 <br />
-                每日 10,000次 請求
+                每日 200,000 Tokens
+              </td>
+              <td>
+                每分鐘 30,000 Tokens
+                <br />
+                每分鐘 500次 請求
+                <br />
+                每日 90,000次 Tokens
               </td>
               <td>
                 每分鐘 300,000 Tokens
