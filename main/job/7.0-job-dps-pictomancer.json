@@ -30,6 +30,14 @@
   ["シアンブリザド", "Blizzard in Cyan", "青冰結", "青冰结"],
   ["シアンブリザラ", "Blizzard II in Cyan", "青冰結II", "青冰冻"],
   ["サブトラクティブパレット", "Subtractive Palette", "反轉調色盤", "反转调色盘"],
+  ["イエローストーン", "Stone in Yellow", "黃飛石", "黄飞石"],
+  ["マゼンタサンダー", "Thunder in Magenta", "紫閃電", "紫闪电"],
+  ["イエローストンラ", "Stone II in Yellow", "黃飛石II", "黄坚石"],
+  ["マゼンタサンダラ", "Thunder II in Magenta", "紫閃電II", "紫震雷"],
+  ["ピクトスケープ", "Landscape Motif", "風景繪靈", "风景绘灵"],
+  ["イマジンスケープ", "Scenic Muse", "風景具現", "风景具现"],
+  ["ピクトスカイ", "Starry Sky Motif", "天空繪靈", "天空绘灵"],
+  ["イマジンスカイ", "Starry Muse", "天空具現", "天空具现"],
 
   ["//comment---------END", "", "", ""]
 ]
