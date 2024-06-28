@@ -8,12 +8,12 @@
   {
     "Key": "PANEL_NAME",
     "ASMSignature": false,
-    "PointerPath": [41150352, 32, 14504, 544, 192, 0]
+    "PointerPath": [41150352, 32, 14504, 560, 226]
   },
   {
     "Key": "PANEL_TEXT",
     "ASMSignature": false,
-    "PointerPath": [41150352, 32, 14504, 552, 192, 0]
+    "PointerPath": [41150352, 32, 14504, 3664, 944, 0]
   },
   {
     "Key": "CUTSCENE_TEXT",
