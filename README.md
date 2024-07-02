@@ -23,7 +23,7 @@
 |    |--uncountable.json   #不使用複數名之名詞清單
 |
 |---jp   #日文修正文件
-|    |--hidden      #隱藏(不使用)
+|    |--hidden   #隱藏(不使用)
 |    |--subtitle   #字幕修正文件
 |    |--ignore.json   #無視清單(使用正規表達式)
 |    |--jp1.json   #單字修正文件1
