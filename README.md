@@ -2,57 +2,47 @@
 繁體中文翻譯: 巴哈姆特電玩資訊站 夜雪(winw1010)  
 簡體中文翻譯: 夜北 yakita
 
-## 文件格式
+##
 
-### chs
+### 文件架構
 
-存放簡體中文校正用文件
-
-- overwrite: 存放整句轉換的文件，只要檔名不是 hidden.json 皆會被讀取，格式為[日文, 簡體中文]
-- afterTranslation.json: 存放翻譯後的校正詞彙，格式為[翻譯後欲修正的詞彙, 修正後的詞彙]
-- chName.json: 存放用於建立臨時 NPC 名字的文件，格式為[日文, 簡體中文]
-
-### cht
-
-存放繁體中文校正用文件
-
-- overwrite: 存放整句轉換的文件，只要檔名不是 hidden.json 皆會被讀取，格式為[日文, 繁體中文]
-- afterTranslation.json: 存放翻譯後的校正詞彙，格式為[翻譯後欲修正的詞彙, 修正後的詞彙]
-- chName.json: 存放用於建立臨時 NPC 名字的文件，格式為[日文, 繁體中文]
-
-### en
-
-存放英文校正用文件
-
-- ignore.json: 存放例外句子的文件，開啟「忽略常見系統訊息」時在此文件內的句子皆會被略過不翻譯，格式為[英文(正規表達式)]
-
-### jp
-
-- subtitle: 存放片段日文句子的文件，用於更改原文句子使之更容易被翻譯引擎正確地翻譯，只要檔名不是 hidden.json 皆會被讀取，替換順序為 subtitle>jp1>jp2，格式為[日文, 日文]
-- ignore.json: 存放例外句子的文件，開啟「忽略常見系統訊息」時在此文件內的句子皆會被略過不翻譯，格式為[日文(正規表達式)]
-- jp1.json: 存放日文片段的文件，用於更改原文句子使之更容易被翻譯引擎正確地翻譯，替換順序為 subtitle>jp1>jp2，格式為[日文, 日文]
-- jp2.json: 存放日文片段的文件，用於更改原文句子使之更容易被翻譯引擎正確地翻譯，替換順序為 subtitle>jp1>jp2，格式為[日文, 日文]
-- kana.json: 存放平假名和片假名的文件，格式為[平假名, 片假名]
-- listCrystalium.json: 存放部分第一世界 NPC 名字的文件，在 5.0 台詞「公」大多是指某位 NPC，但翻譯引擎並不會如此辨認，故建立此文件來修正，只要是在這名單內的 NPC 講的公都會被翻譯成該 NPC 的名字，格式為[日文]
-- listHira.json: 存放需要將台詞轉換成片假名的 NPC 名單，格式為[日文]
-
-### main
-
-- 存放詞彙校正用文件，也是主要的替換文件，所有 NPC 名字和專有名詞皆使用此文件進行替換，只要檔名不是 hidden.json 皆會被讀取
-- N/A 代表不使用，在讀取時會被自動刪除
-- 格式為[日文, 英文, 繁體中文, 簡體中文]
-
-### readme
-
-Tataru Assistant 使用說明文件
-
-### signatures.json
-
-FF14 字幕的指標路徑
-
-### version.json
-
-Tataru Assistant 的版本資料
+```
+|-- ch   #中文修正文件
+|    |--overwrite-en   #英文整句取代文件
+|    |--overwrite-jp-hidden   #日文整句取代文件(隱藏)
+|    |--overwrite-jp   #日文整句取代文件
+|    |--after-translation-chs.json   #簡中翻譯後修飾
+|    |--after-translation-cht.json   #繁中翻譯後修飾
+|    |--jp-ch-name.json   #日文片假名音譯文件
+|
+|-- en   #英文修正文件
+|    |--subtitle   #字幕修正文件
+|    |--en1.json   #單字修正文件1
+|    |--en2.json   #單字修正文件2
+|    |--ignore.json   #無視清單(使用正規表達式)
+|    |--uncountable.json   #不使用複數名之名詞清單
+|
+|---jp   #日文修正文件
+|    |--hidden      #隱藏(不使用)
+|    |--subtitle   #字幕修正文件
+|    |--ignore.json   #無視清單(使用正規表達式)
+|    |--jp1.json   #單字修正文件1
+|    |--jp2.json   #單字修正文件2
+|    |--kana.json   #假名文件
+|    |--listCrystalium.json   #水晶都NPC列表
+|    |--listDelete.json   #刪除清單
+|    |--listHira.json   #強制平假名轉換清單
+|    |--listReverse.json   #強制平/片假名轉換清單
+|    |--special1.json   #特殊修正1(使用正規表達式)
+|    |--special2.json   #特殊修正2(使用正規表達式)
+|    |--title.json   #稱呼修正文件
+|
+|---main   #翻譯對照表(日/英/繁中/簡中)
+|---non-ai   #非AI修正文件
+|---readme   #Tataru Assistant使用說明書
+|---signatures.json   #FFXIV劇情字幕位址
+|---version.json   #Tataru Assistant版本文件
+```
 
 ## 翻譯錯誤回報方式
 
