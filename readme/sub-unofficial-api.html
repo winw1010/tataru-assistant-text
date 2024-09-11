@@ -12,6 +12,22 @@
   </head>
 
   <body>
+    <br />
+
+    <div>
+      <div id="google_translate_element"></div>
+
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({ pageLanguage: 'zh-TW' }, 'google_translate_element');
+        }
+      </script>
+
+      <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
+
+    <br />
+
     <div class="div-return">
       <a href="./sub-gpt-api.html">回到ChatGPT設定教學</a>
     </div>
@@ -21,8 +37,7 @@
     <ol>
       <li>勾選【使用反向代理API】啟用反向代理</li>
       <li>
-        在【反向代理API
-        URL】輸入您的反向代理API網址(例：https://api.openai.com/v1)，請確認網址包含/v1，且網址末尾不帶/，設置完成後儲存設定
+        在【反向代理API URL】輸入您的反向代理API網址(例：https://api.openai.com/v1)，請確認網址包含/v1，且網址末尾不帶/，設置完成後儲存設定
         <br /><img class="img-fluid" src="./img/gpt/unoffcial-1.png" alt="" />
       </li>
       <li>
@@ -34,9 +49,7 @@
     <ul hidden>
       <li>
         <h3>OpenAI提示詞</h3>
-        <span>
-          默認值：You will be provided with a sentence in $source, and your task is to translate it into $target.
-        </span>
+        <span> 默認值：You will be provided with a sentence in $source, and your task is to translate it into $target. </span>
         <br />
         <span> 儅用戶設置該值時，使用用戶輸入的提示詞；儅該值爲空時，默認使用内置提示詞</span>
         <br />

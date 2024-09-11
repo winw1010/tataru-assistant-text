@@ -11,6 +11,22 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+    <br />
+
+    <div>
+      <div id="google_translate_element"></div>
+
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({ pageLanguage: 'zh-TW' }, 'google_translate_element');
+        }
+      </script>
+
+      <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
+
+    <br />
+
     <div class="div-return">
       <a href="./index.html">回首頁</a>
     </div>
@@ -44,12 +60,8 @@
         <img class="img-fluid" src="./img/capture/cpature-method.png" alt="picture" style="margin: 0" />
         <ol>
           <li>最左邊可選擇擷取方式，有Tesseract OCR和Google Vision兩種</li>
-          <li>
-            換行切割：勾選後會以【行】為單位逐行翻譯(用來翻譯過場的選擇項目)，不勾選的話會將所有文字合併成一行再翻譯(翻譯整篇文章時使用)
-          </li>
-          <li>
-            編輯文字：勾選後會在擷取文字後顯示編輯視窗，可先在此手動修正文字再按【翻譯】提交，不勾選的話則會直接提交翻譯，若提交的文字有誤也不會修正
-          </li>
+          <li>換行切割：勾選後會以【行】為單位逐行翻譯(用來翻譯過場的選擇項目)，不勾選的話會將所有文字合併成一行再翻譯(翻譯整篇文章時使用)</li>
+          <li>編輯文字：勾選後會在擷取文字後顯示編輯視窗，可先在此手動修正文字再按【翻譯】提交，不勾選的話則會直接提交翻譯，若提交的文字有誤也不會修正</li>
         </ol>
       </li>
 

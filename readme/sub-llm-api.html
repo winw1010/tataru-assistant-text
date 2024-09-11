@@ -12,6 +12,22 @@
   </head>
 
   <body>
+    <br />
+
+    <div>
+      <div id="google_translate_element"></div>
+
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({ pageLanguage: 'zh-TW' }, 'google_translate_element');
+        }
+      </script>
+
+      <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
+
+    <br />
+
     <div class="div-return">
       <a href="./index.html">回首頁</a>
     </div>
@@ -21,9 +37,7 @@
     <ol>
       <li>開啟【設定】視窗，選擇【API設定】，然後往下移動到【自訂LLM設定】</li>
 
-      <li>
-        於【LLM API URL】輸入您的API網址(例：https://api.openai.com/v1/chat/completions)，請輸入【完整的】的chat網址
-      </li>
+      <li>於【LLM API URL】輸入您的API網址(例：https://api.openai.com/v1/chat/completions)，請輸入【完整的】的chat網址</li>
 
       <li>於【API key】輸入您的API金鑰</li>
 
@@ -31,17 +45,13 @@
 
       <li>於【API key】輸入您的API金鑰</li>
 
-      <li>
-        儲存完畢後請回到【翻譯設定】將【翻譯引擎】更改為【自訂LLM API】，並按下【儲存變更】，儲存後即可開始使用
-      </li>
+      <li>儲存完畢後請回到【翻譯設定】將【翻譯引擎】更改為【自訂LLM API】，並按下【儲存變更】，儲存後即可開始使用</li>
     </ol>
 
     <ul hidden>
       <li>
         <h3>OpenAI提示詞</h3>
-        <span>
-          默認值：You will be provided with a sentence in $source, and your task is to translate it into $target.
-        </span>
+        <span> 默認值：You will be provided with a sentence in $source, and your task is to translate it into $target. </span>
         <br />
         <span> 儅用戶設置該值時，使用用戶輸入的提示詞；儅該值爲空時，默認使用内置提示詞</span>
         <br />

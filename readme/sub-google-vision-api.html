@@ -12,6 +12,22 @@
   </head>
 
   <body>
+    <br />
+
+    <div>
+      <div id="google_translate_element"></div>
+
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({ pageLanguage: 'zh-TW' }, 'google_translate_element');
+        }
+      </script>
+
+      <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
+
+    <br />
+
     <div class="div-return">
       <a href="./index.html">回首頁</a>
     </div>
@@ -41,12 +57,7 @@
       <li>
         <span>
           前往
-          <a
-            href="https://console.cloud.google.com/projectselector2/home/dashboard?_ga=2.109079943.344879435.1711353170-2052909929.1711353170"
-            target="_blank"
-          >
-            資訊主頁
-          </a>
+          <a href="https://console.cloud.google.com/projectselector2/home/dashboard?_ga=2.109079943.344879435.1711353170-2052909929.1711353170" target="_blank"> 資訊主頁 </a>
           點選【選取專案】，選擇一個近期專案
         </span>
         <br />
@@ -60,12 +71,7 @@
       <li>
         <span>
           前往
-          <a
-            href="https://console.cloud.google.com/billing?_ga=2.167008830.1210687462.1711353420-437806892.1711353420"
-            target="_blank"
-          >
-            帳單帳戶管理頁面
-          </a>
+          <a href="https://console.cloud.google.com/billing?_ga=2.167008830.1210687462.1711353420-437806892.1711353420" target="_blank"> 帳單帳戶管理頁面 </a>
           點選【建立帳戶】建立一個帳單帳戶，建立後填入付款資料，
         </span>
         <span class="text-warning">並連結上一步驟選取的專案</span>
@@ -76,12 +82,7 @@
       <li>
         <span>
           至
-          <a
-            href="https://console.cloud.google.com/flows/enableapi?apiid=vision.googleapis.com&_ga=2.20267194.344879435.1711353170-2052909929.1711353170"
-            target="_blank"
-          >
-            Google Vision API頁面
-          </a>
+          <a href="https://console.cloud.google.com/flows/enableapi?apiid=vision.googleapis.com&_ga=2.20267194.344879435.1711353170-2052909929.1711353170" target="_blank"> Google Vision API頁面 </a>
           選擇上一步驟選取的專案並啟用Google Vision
         </span>
         <br />
@@ -91,9 +92,7 @@
       <li>
         <span>
           前往
-          <a href="https://console.cloud.google.com/apis/api/vision.googleapis.com/credentials" target="_blank">
-            API/服務詳細資料
-          </a>
+          <a href="https://console.cloud.google.com/apis/api/vision.googleapis.com/credentials" target="_blank"> API/服務詳細資料 </a>
           ，點選【建立憑證】，然後點選【服務帳戶】建立一個服務帳戶(資料隨意填即可)
         </span>
         <br />
@@ -103,9 +102,7 @@
       </li>
 
       <li>
-        <span>
-          建立後點選上一步建立的服務帳戶，點選【金鑰】，然後點選【新增金鑰】>【建立新的金鑰】>【JSON】，然後按下創建後即會自動下載憑證至您的電腦
-        </span>
+        <span> 建立後點選上一步建立的服務帳戶，點選【金鑰】，然後點選【新增金鑰】>【建立新的金鑰】>【JSON】，然後按下創建後即會自動下載憑證至您的電腦 </span>
         <br />
         <img class="img-fluid" src="./img/google-vision/google-vision-add-json.png" alt="" />
         <br />
@@ -119,10 +116,7 @@
       </li>
 
       <li>
-        <span>
-          進入Tataru Assistant的
-		  設定，點選【API設定】>【開啟Google憑證檔案】，選擇上一步下載的JSON檔案(至您的下載資料夾找)
-        </span>
+        <span> 進入Tataru Assistant的 設定，點選【API設定】>【開啟Google憑證檔案】，選擇上一步下載的JSON檔案(至您的下載資料夾找) </span>
         <br />
         <img class="img-fluid" src="./img/google-vision/google-vision-open-json.png" alt="" />
         <br />
@@ -135,9 +129,7 @@
       </li>
 
       <li>
-        <span class="text-warning">
-          由於憑證和您的帳單綁定，因此請妥善保管憑證檔案，若想移除憑證請至您的服務帳戶的金鑰頁面刪除即可
-        </span>
+        <span class="text-warning"> 由於憑證和您的帳單綁定，因此請妥善保管憑證檔案，若想移除憑證請至您的服務帳戶的金鑰頁面刪除即可 </span>
       </li>
     </ol>
   </body>
