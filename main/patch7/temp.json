@@ -140,18 +140,18 @@
   ["ジップライン", "N/A", "N/A", "飞索"],
 
   ["//comment", "---------PATCH 7.1 TEMP", "", ""],
-  ["未知との邂逅", "N/A", "N/A", "与未知邂逅"],
-  ["絶もうひとつの未来", "Futures Rewritten (Ultimate)", "N/A", "光暗未来绝境战"],
-  ["滅暗闇の雲激闘戦", "Cloud of Darkness (Chaotic)", "N/A", "暗黑之云乱灭战"],
-  ["幻白虎征魂戦", "The Jade Stoa (Unreal)", "N/A", "白虎幻巧战"],
-  ["プリッシュ", "Prishe", "N/A", "普利修"],
-  ["Prishe", "Prishe", "N/A", "普利修"],
+  ["未知との邂逅", "N/A", "未知的邂逅", "与未知邂逅"],
+  ["絶もうひとつの未来", "Futures Rewritten (Ultimate)", "絕望的另一個未來", "光暗未来绝境战"],
+  ["滅暗闇の雲激闘戦", "Cloud of Darkness (Chaotic)", "滅暗黑之雲激鬥戰", "暗黑之云乱灭战"],
+  ["幻白虎征魂戦", "The Jade Stoa (Unreal)", "幻白虎征魂戰", "白虎幻巧战"],
+  ["プリッシュ", "Prishe", "普利修", "普利修"],
+  ["Prishe", "Prishe", "普利修", "普利修"],
   ["Prishe of the Distant Chains", "Prishe of the Distant Chains", "N/A", "遥远咒缚 普利修"],
-  ["Ark Angel", "Ark Angel", "N/A", "方舟天使"],
+  ["Ark Angel", "Ark Angel", "方舟天使", "方舟天使"],
   
 
   ["//comment", "---------PATCH 7.2 TEMP", "", ""],
-  ["蜃気楼の島 クレセントアイル", "Occult Crescent", "N/A", "蜃境幻界新月岛"],
-  ["クレセントアイル", "N/A", "N/A", "新月岛"],
+  ["蜃気楼の島 クレセントアイル", "N/A", "海市蜃樓之島 新月島", "蜃境幻界新月岛"],
+  ["クレセントアイル", "Occult Crescent", "新月島", "新月岛"],
   ["//comment", "---------END", "", ""]
 ]
