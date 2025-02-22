@@ -17,6 +17,7 @@
   "^(Mist|The Lavender Beds|The Goblet|Shirogane|Empyreum), Ward \\d+$",
 
   "^You are no longer selling items in the (Limsa Lominsa|Gridania|Ul'dah|Ishgard|Kugane|Crystarium|Old Sharlayan|Tuliyollal) markets.$",
+  "^You are now selling items in the (Limsa Lominsa|Gridania|Ul'dah|Ishgard|Kugane|Crystarium|Old Sharlayan|Tuliyollal) markets.$",
 
   "⇒",
   "",
