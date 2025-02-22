@@ -18,6 +18,7 @@
 
   "^You are no longer selling items in the (Limsa Lominsa|Gridania|Ul'dah|Ishgard|Kugane|Crystarium|Old Sharlayan|Tuliyollal) markets.$",
   "^You are now selling items in the (Limsa Lominsa|Gridania|Ul'dah|Ishgard|Kugane|Crystarium|Old Sharlayan|Tuliyollal) markets.$",
+  "^The .+ you put up for sale in the (Limsa Lominsa|Gridania|Ul'dah|Ishgard|Kugane|Crystarium|Old Sharlayan|Tuliyollal) markets has sold for \\d+ gil (after fees).$",
 
   "⇒",
   "",
