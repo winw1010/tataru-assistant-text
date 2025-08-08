@@ -160,7 +160,12 @@
   ["//comment", "---------ジュノ：ザ・ファーストウォーク", "", ""],
   ["Prishe of the Distant Chains", "Prishe of the Distant Chains", "遙遠之鍊 普利修", "遥远咒缚 普利修"],
 
-  ["Ark Angel", "Ark Angel", "方舟天使", "方舟天使"],
+  ["ファブニル", "Fafnir", "法夫納", "法夫纳"],
+  ["Fafnir", "N/A", "法夫納", "法夫纳"],
+
+  ["アークエンジェル", "Ark Angel", "方舟天使", "方舟天使"],
+  ["Ark Angel", "N/A", "方舟天使", "方舟天使"],
+
   ["Ark Angel HM", "Ark Angel HM", "方舟天使 修姆族", "方舟天使 修姆族"],
   ["Ark Angel TT", "Ark Angel TT", "方舟天使 塔魯塔魯族", "方舟天使 塔鲁塔鲁族"],
   ["Ark Angel MR", "Ark Angel MR", "方舟天使 米斯拉族", "方舟天使 米斯拉族"],
