@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>使用說明書</title>
+    <title>User Manual</title>
 
     <!-- style -->
     <link rel="stylesheet" href="../../css/bootstrap.min.css" />
@@ -12,22 +12,26 @@
   </head>
   <body>
     <div class="div-return">
-      <a href="./index.html">回首頁</a>
+      <a href="./index.html">Back to Home</a>
     </div>
 
     <br />
 
     <ol>
       <li>
-        按下
+        Click the
         <img class="img-fluid img-ui" src="../../img/ui/settings_white_24dp.svg" alt="picture" />
-        開啟設定，然後在左上角的下拉選單選擇【API設定】。
+        icon to open Settings, then select [API Settings] from the dropdown menu in the top-left corner.
       </li>
 
-      <li>從AI官網申請API金鑰，過程這裡就不贅述，取得API金鑰之後將其輸入到API設定中該AI的【API Key】欄位裡。</li>
+      <li>
+        Apply for an API key from the AI provider's official website (the process is not detailed here). Once you have obtained the API key, enter it
+        into the [API Key] field for that specific AI in the API Settings.
+      </li>
 
       <li>
-        若想使用非預設模型，請在該AI的【模型】欄位輸入想使用的模型代碼，模型代碼可從下方連結複製。
+        If you wish to use a non-default model, enter the model code you wish to use into the [Model] field for that AI. You can copy model codes from
+        the links below:
 
         <table class="table">
           <tr>
@@ -49,13 +53,14 @@
         </table>
       </li>
 
-      <li>在左上角的下拉選單選擇【翻譯設定】，在【翻譯器】欄位選擇你使用的AI名稱。</li>
+      <li>In the top-left dropdown menu, select [Translation Settings], and in the [Translator] field, select the AI you are using.</li>
 
       <li>
-        若想提高AI翻譯的精準度，請在左上角的下拉選單選擇【LLM設定】，啟用【多輪對話】，並將【對話長度】設定在5以上，長度越高精準度就越好，但Token也會增加。
+        To improve the accuracy of the AI translation, select [LLM Settings] from the top-left dropdown menu, enable [Multi-turn Conversation], and
+        set the [Conversation Length] to 5 or higher. A longer length improves accuracy but will increase token usage.
       </li>
 
-      <li>按下儲存按鈕儲存剛剛的設定即可開始使用AI翻譯。</li>
+      <li>Click the Save button to store your settings and you can start using the AI translation.</li>
     </ol>
   </body>
 </html>
